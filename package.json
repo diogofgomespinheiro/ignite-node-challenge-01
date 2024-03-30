@@ -6,9 +6,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/server.js",
-    "debug": "node --watch --inspect src/server.js"
+    "debug": "node --watch --inspect src/server.js",
+    "import": "node streams/csv-importer.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
 }
